@@ -1,0 +1,8 @@
+Network Scan and Vulnerability Report
+========================================
+
+Host: 192.168.225.180
+---------------------
+    Port 53/TCP is OPEN -> No Banner (Timeout)
+        (No specific vulnerabilities identified based on known database)
+

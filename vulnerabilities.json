@@ -1,0 +1,66 @@
+{
+  "apache": {
+    "2.2.x": [
+      {
+        "cve_id": "CVE-2012-0001",
+        "description": "Apache HTTP Server mod_php remote code execution vulnerability via filename. This affects 2.2.x versions."
+      },
+      {
+        "cve_id": "CVE-2013-0002",
+        "description": "Apache HTTP Server directory traversal vulnerability in mod_alias. Affects 2.2.x versions."
+      }
+    ],
+    "2.4.x": [
+      {
+        "cve_id": "CVE-2019-0211",
+        "description": "Apache HTTP Server mod_auth_digest insufficient authorization in 2.4.x before 2.4.40."
+      },
+      {
+        "cve_id": "CVE-2021-44224",
+        "description": "Apache Log4j RCE (Log4Shell) vulnerability. Affects applications using vulnerable Log4j versions (e.g., 2.x to 2.14.1)."
+      }
+    ]
+  },
+  "openssh": {
+    "7.2p2": [
+      {
+        "cve_id": "CVE-2016-0777",
+        "description": "OpenSSH client roaming feature information leak (client bug)."
+      },
+      {
+        "cve_id": "CVE-2016-0778",
+        "description": "OpenSSH client roaming feature memory corruption."
+      }
+    ],
+    "8.x": [
+      {
+        "cve_id": "CVE-2020-14145",
+        "description": "OpenSSH pre-authentication integer overflow in `mm_answer_challenge`."
+      }
+    ]
+  },
+  "nginx": {
+    "1.10.x": [
+      {
+        "cve_id": "CVE-2017-7529",
+        "description": "Nginx range filter vulnerability resulting in information disclosure."
+      }
+    ]
+  },
+  "ftp": {
+    "vsftpd 2.3.4": [
+      {
+        "cve_id": "CVE-2011-2523",
+        "description": "vsftpd 2.3.4 backdoor command execution vulnerability. (This is a famous one!)"
+      }
+    ]
+  },
+  "dns": {
+    "bind 9.9.x": [
+      {
+        "cve_id": "CVE-2016-2776",
+        "description": "BIND `dnssec-enable` default in 9.9.x allows remote attackers to cause a denial of service."
+      }
+    ]
+  }
+}
