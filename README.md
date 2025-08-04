@@ -82,40 +82,6 @@ sudo /path/to/your/venv/bin/python3 src/main.py 192.168.1.0/24 -sS -v -o scan_re
 
 This tool uses a simplified, local JSON file (vulnerabilities.json) to store a mapping of known service versions to associated CVE IDs and descriptions. This database needs to be manually maintained. For a production-grade scanner, integration with live, comprehensive vulnerability databases (like NVD) would be required.
 
-## Learning Outcomes
-
-- During the development of this project, I gained practical experience in:
-
-- **Network basics:** IP addressing, subnets, ARP, ICMP.
-
-- Network reconnaissance techniques: Host discovery, port scanning, banner grabbing.
-
-- **Python programming:**
-    - argparse for robust command-line interfaces.
-    - scapy for low-level packet crafting and sniffing (ARP, ICMP, SYN/UDP scans).
-    - socket for raw TCP connections and banner grabbing.
-    - threading and queue for implementing multi-threaded, concurrent operations.
-    - File I/O for report generation (.txt, .csv).
-    - json for data management.
-    - rich for enhancing command-line interface aesthetics.
-    - Basic vulnerability identification concepts and their reliance on version information.
-
-## Future Enhancements (Ideas for continued development)
-
-- Integrate with official vulnerability databases (e.g., NVD API) for real-time, comprehensive vulnerability data.
-
-- Implement more advanced port scanning techniques (e.g., Xmas, Null, FIN scans).
-
-- Add specific protocol-aware probes for better UDP and complex TCP service enumeration.
-
-- Develop a basic web-based GUI for easier interaction.
-
-- Incorporate python-nmap for leveraging Nmap's powerful scanning engine.
-
-- Implement OS detection (e.g., via Nmap or scapy fingerprinting).
-
-- Add support for different IP range formats (e.g., comma-separated IPs).
-
 ## Acknowledgments
 
 - **Scapy:** Powerful packet manipulation program.
