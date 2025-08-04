@@ -1022,8 +1022,6 @@ def main():
             save_report_csv(scan_results, args.output)
         # Add elif for other formats like HTML later if needed
     # --- End Report Generation Phase ---
-# ... (rest of the main function, if __name__ == "__main__": block) ...
-
 # ... (if __name__ == "__main__": block remains the same) ...
 if __name__ == "__main__":
     # Check for root privileges early (still needed for ARP/ICMP, but not strictly for TCP connect)
